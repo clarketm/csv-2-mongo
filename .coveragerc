@@ -1,0 +1,8 @@
+[run]
+omit =
+    csv-2-mongo
+    */__main__.py
+    */__init__.py
+    setup.py
+    manage.py
+    venv/*
