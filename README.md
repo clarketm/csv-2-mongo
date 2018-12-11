@@ -66,7 +66,7 @@ Import data.csv to database=animals collection=mammals [y/N]? y
 Import complete!
 ```
 
-Import `mammals.csv` to a `mammals` collection in the  `animals` database running on host **mongo.travismclarke.com** at port **27111**:
+Import `mammals.csv` to a `mammals` collection in the  `animals` database running on *host* **mongo.travismclarke.com** at *port* **27111**:
 
 ```bash
 $ csv-2-mongo -d animals -c mammals -H mongo.travismclarke.com -p 27111 ./mammals.csv
@@ -81,7 +81,7 @@ Import data.csv to database=animals collection=mammals [y/N]? y
 Import complete!
 ```
 
-To skip the prompt (e.g. `Import data.csv to ...`), such as running via a script, one can pass the `-y`, `--yes` flag to force a yes answer to the confirmation prompt:
+To skip the prompt (e.g. `Import data.csv to ...`), such as running via a script, one can pass the `-y`, `--yes` flag to force a *yes* response to the confirmation prompt:
 
 > Note: this will not suppress the *overwrite* prompt which still requires the `-f, --force` flag.
 
@@ -91,10 +91,9 @@ $ csv-2-mongo -y -d animals -c mammals ./mammals.csv
 
 ```txt
 ....................................
-Connecting to 0.0.0.0:27017
+Connecting to 172.24.194.133:27017
 ....................................
 
-Import data.csv to database=animals collection=mammals [y/N]? y
 Import complete!
 ```
 
