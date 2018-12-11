@@ -74,7 +74,7 @@ $ csv-2-mongo -d animals -c mammals -H mongo.travismclarke.com -p 27111 ./mammal
 
 ```txt
 ....................................
-Connecting to 0.0.0.0:27017
+Connecting to mongo.travismclarke.com:27111
 ....................................
 
 Import data.csv to database=animals collection=mammals [y/N]? y
@@ -91,7 +91,7 @@ $ csv-2-mongo -y -d animals -c mammals ./mammals.csv
 
 ```txt
 ....................................
-Connecting to 172.24.194.133:27017
+Connecting to 0.0.0.0:27017
 ....................................
 
 Import complete!
