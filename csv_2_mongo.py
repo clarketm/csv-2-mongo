@@ -11,7 +11,7 @@ from pandas import read_csv
 from pymongo import MongoClient
 from pymongo.errors import ServerSelectionTimeoutError
 
-__VERSION__ = "0.0.1"
+__VERSION__ = "0.0.2"
 
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 
