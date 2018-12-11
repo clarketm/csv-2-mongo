@@ -32,6 +32,8 @@ Options:
 
 ```
 
+> Note: CSV headers are **required** to correlate MongoDB `fields` to CSV `fields`. 
+
 ## Examples
 
 Import `mammals.csv` to a `mammals` collection in the  `animals` database:
