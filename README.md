@@ -32,7 +32,7 @@ Options:
 
 ```
 
-> Note: CSV headers are **required** to correlate MongoDB `fields` to CSV `fields`. 
+> Note: CSV headers are **required** to correctly correlate MongoDB `fields` to CSV `fields`. 
 
 ## Examples
 
